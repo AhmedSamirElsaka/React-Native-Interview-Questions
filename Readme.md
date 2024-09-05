@@ -165,7 +165,7 @@
 19. ### How do you handle navigation between screens in React Native
     ---   
     Navigation between screens in React Native is managed using libraries like React Navigation. You define a navigator component and configure the screens you want to navigate to. Then, you use       
-    navigation methods like 'navigate', 'push', 'goBack', etc., to move between screens.
+    navigation methods like 'navigate', 'push', 'goBack', etc., to move between screens.                                                                                                        
     **Or** you can use Expo Router when you use expo in your app
     
 20. ### What are 'keys' in React Native and why are they important in lists
