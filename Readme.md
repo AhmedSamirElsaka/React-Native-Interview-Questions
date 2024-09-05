@@ -124,17 +124,17 @@
     ```
     changing the word in brackets depending on the type of component you want to import. 
 
-18. ### What coding languages are compatible with React Native
+17. ### What coding languages are compatible with React Native
     ---
     While React Native is generally used with JavaScript, compatibility with other coding languages, including Python, C++, and C, is also possible through the framework’s Java Native Interface (JNI)
 
-19. ### What engine does React Native use
+18. ### What engine does React Native use
     ---
     In React Native, JavaScript code runs through two engines:
     1. **JavaScriptCore** is used on iOS simulators and Android emulators; virtually all operations run through this engine
     2. **V8** is used when Chrome debugging is being performed
        
-20. ### What are the main disadvantages of using React Native
+19. ### What are the main disadvantages of using React Native
     ---
     As with any software framework, React Native has its fair share of drawbacks. These include:
 
@@ -143,3 +143,18 @@
    3. Memory management: Limitations on memory mean React Native is not suited to developing computation-intensive apps
    4. Low security: React Native’s open-source design leaves apps more exposed to threats, which is especially dangerous for apps containing sensitive information, such as banking services
    5. Learning curve: React Native is one of the more challenging software frameworks to learn, especially for junior developers
+
+20. ### How would you style a React Native component
+    ---
+    React Native components can be styled using the 'StyleSheet' component.                                                                                                                        
+    It provides an interface similar to CSS for defining styles.                                                                                                                                    
+    You can use properties like 'flex', 'margin', 'padding', 'color', and more. Here's an example:
+    ```javaScript
+    import { StyleSheet } from 'react-native';
+    const styles = StyleSheet.create({
+    container: {flex: 1, justifyContent: 'center', alignitems: 'center', backgroundColor: 'lightblue', },
+    text: {fontSize: 18, fontWeight: 'bold', color: 'white', },
+    });
+    ```
+    **Or** you can use some libraries like NativeWind and others 
+ 
