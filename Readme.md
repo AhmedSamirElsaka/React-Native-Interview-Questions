@@ -94,6 +94,52 @@
 
 10. ### What is the role of props in React Native
     ---
+    
     Props provide properties to components inserted in a program, which makes components modifiable and customizable.                                                            
     For example, the same component might be used in different parts of an app.                                                                                                        
-    When we use props, we can alter the component’s appearance or behavior. 
+    When we use props, we can alter the component’s appearance or behavior.
+
+11. ### What is the role of AsyncStorage in React Native
+    ---
+    AsyncStorage is React Native’s key-value, unencrypted storage module that allows developers to store data for offline use. Typically, it’s used to store data when an app is not linked to a cloud 
+    service, or when specific features require data storage.
+
+13. ### What is the role of Flexbox in React Native
+    ---
+    In React Native apps, Flexbox is used to provide a consistent layout across different screen types. The Flexbox algorithm helps to structure the positioning of different components and create a 
+    responsive UI for the end user.
+    
+15. ### What is the state in React Native
+    ---
+    In React Native, the state refers to information about a property at a given time. Unlike props, the state is mutable; it can change. Typically, this will occur when a user interacts with the 
+    component.
+    For example, if your app had a filling form that users are invited to complete, the state of that component would change when the user types something in
+
+16. ### How do you import components in React Native
+    ---
+    In React Native, you can import components from scratch, or also import ready-made ones from another file. 
+    To import a component, you need to type
+    ```javaScript
+    <import { Component } from ‘react-native’>
+    ```
+    changing the word in brackets depending on the type of component you want to import. 
+
+18. ### What coding languages are compatible with React Native
+    ---
+    While React Native is generally used with JavaScript, compatibility with other coding languages, including Python, C++, and C, is also possible through the framework’s Java Native Interface (JNI)
+
+19. ### What engine does React Native use
+    ---
+    In React Native, JavaScript code runs through two engines:
+    1. **JavaScriptCore** is used on iOS simulators and Android emulators; virtually all operations run through this engine
+    2. **V8** is used when Chrome debugging is being performed
+       
+20. ### What are the main disadvantages of using React Native
+    ---
+    As with any software framework, React Native has its fair share of drawbacks. These include:
+
+   1. Non-nativity: React Native isn’t a native solution, which means its apps may be slightly slower than native ones
+   2. Debugging issues: React Native is built using Javascript, Objective-C, Java, and C or C ++, which can make debugging more difficult
+   3. Memory management: Limitations on memory mean React Native is not suited to developing computation-intensive apps
+   4. Low security: React Native’s open-source design leaves apps more exposed to threats, which is especially dangerous for apps containing sensitive information, such as banking services
+   5. Learning curve: React Native is one of the more challenging software frameworks to learn, especially for junior developers
